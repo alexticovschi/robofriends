@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Card from './Card';
 
 const CardList = ({ robots }) => {
@@ -10,9 +10,9 @@ const CardList = ({ robots }) => {
             email={robot.email}/>
     ));
     return (
-        <Fragment>
+        <div>
             {cardComponent}
-        </Fragment>
+        </div>
     )
 }
 
