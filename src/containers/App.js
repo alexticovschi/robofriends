@@ -26,6 +26,7 @@ class App extends Component {
     // }
 
     render() {
+        //console.log('[this.props:]', this.props);
         const { robots } = this.state;
         const { searchField, onSearchChange } = this.props;
         const filteredRobots = robots.filter(robot => {
